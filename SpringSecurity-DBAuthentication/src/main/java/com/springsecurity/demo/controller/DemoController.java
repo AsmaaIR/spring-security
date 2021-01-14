@@ -10,8 +10,7 @@ public class DemoController {
 	public String showHomePage() {
 		return "home-page";
 	}
-	
-	
+
 	@GetMapping("/managers")
 	public String showManagersPage() {
 		return "managers";
